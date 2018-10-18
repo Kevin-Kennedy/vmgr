@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/Kevin-Kennedy/vmgr/issues"
   },
-  "homepage": "https://github.com/Kevin-Kennedy/vmgr#readme"
+  "homepage": "https://github.com/Kevin-Kennedy/vmgr#readme",
   "engines": {
     "node": "10.12.0"
   }
