@@ -1,0 +1,22 @@
+{
+  "name": "vmgr",
+  "version": "1.0.0",
+  "description": "Virtual Machine Manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kevin-Kennedy/vmgr.git"
+  },
+  "author": "Kevin Kennedy <Kevin.Kennedy.TX@gmail.com> (https://github.com/Kevin-Kennedy)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kevin-Kennedy/vmgr/issues"
+  },
+  "homepage": "https://github.com/Kevin-Kennedy/vmgr#readme"
+  "engines": {
+    "node": "10.12.0"
+  }
+}
