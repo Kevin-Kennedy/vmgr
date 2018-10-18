@@ -4,14 +4,19 @@
 const winston = require('winston');
 
 
-const console = new winston.transports.Console();
 const logger = winston.createLogger({
     transports: [
-        console
+        new winston.transports.Console()
     ]
 });
 
 
-const message = "Hello";
+let message = null;
+
+if ("test" === process.env.NODE_ENV) {
+    message = "Hello";
+} else {
+    message = "Howdy";
+}
 
 logger.info(message);
